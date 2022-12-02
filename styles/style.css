@@ -22,11 +22,14 @@
   font-display: swap;
 }
 
+.slider-image {
+  object-fit: contain;
+}
 
-
-.page-section-full {
+/*.page-section-full {
     width: 100%;
 }
+
 
 .page-section-full > *, .page-section {
     max-width: 1160px;
@@ -57,9 +60,9 @@
   font-size: 18px;
   line-height: 21px;
 }
+*/
 
-
-/*.visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -71,4 +74,3 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-*/
