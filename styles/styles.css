@@ -212,13 +212,20 @@ input {
   justify-content: space-between;
   height: 100%;
   padding: 0;
-
   list-style-type: none;
 }
 
 .navigation-user .navigation-item-inside:first-child {
   flex-grow: 1;
   margin-right: auto;
+}
+
+.login-container {
+  display: flex;
+}
+
+.exit-item {
+padding-left: 10px;
 }
 
 .navigation-services {
@@ -1572,4 +1579,23 @@ input {
 .footer-htmlacademy-link:active svg {
   fill: #ffffff;
   opacity: 0.3;
+}
+
+
+
+
+.inner-header-title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.inner-header {
+
+}
+
+.breadcrumbs {
+  display: flex;
 }
