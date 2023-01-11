@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
-* Студент: [Борис Батанов](https://up.htmlacademy.ru/htmlcss/35/user/1503567).
-* Наставник: `Неизвестно`.
+* Студент: [Журман Юлия](https://up.htmlacademy.ru/htmlcss/35/user/2189919).
+* Наставник: [Павел Позняк](https://htmlacademy.ru/profile/id907403).
 
 ---
 
@@ -18,7 +18,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/1503567-device-35) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/2189919-device-35) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29038004-a420d688-7bae-11e7-9a40-8f72e1f3cac4.jpg">
 
