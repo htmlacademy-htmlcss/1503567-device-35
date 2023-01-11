@@ -1,6 +1,6 @@
 # Личный проект «Девайс»
 
-* Студент: [Журман Юлия](https://up.htmlacademy.ru/htmlcss/35/user/2189919).
+* Студент: [Борис Батанов](https://up.htmlacademy.ru/htmlcss/35/user/1503567).
 * Наставник: [Павел Позняк](https://htmlacademy.ru/profile/id907403).
 
 ---
