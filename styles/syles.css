@@ -1874,7 +1874,7 @@ body {
   outline-offset: 2px;
 }
 
-.field-container.is-invalid .modal-input {
+.modal-input:invalid {
   border: 2px solid rgba(255, 61, 61, 1);
 }
 
