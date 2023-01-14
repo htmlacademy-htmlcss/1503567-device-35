@@ -131,7 +131,7 @@ body {
   background-color: transparent;
   border: 2px solid #000000;
   border-radius: 50px 0 0 50px;
-  background-image: url(../images/scenery/search.svg);
+  background-image: url("../images/scenery/search.svg");
   background-repeat: no-repeat;
   background-position: 14px 50%;
 }
@@ -249,7 +249,7 @@ body {
 
 .auth-link {
   align-self: center;
-  background-image: url(../images/scenery/log-in.svg);
+  background-image: url("../images/scenery/log-in.svg");
   background-repeat: no-repeat;
   padding-left: 27px;
   background-position: 1px;
@@ -258,7 +258,7 @@ body {
 
 .contrast-link {
   align-self: center;
-  background-image: url(../images/scenery/chart.svg);
+  background-image: url("../images/scenery/chart.svg");
   background-repeat: no-repeat;
   padding-left: 24px;
   background-position: 0;
@@ -275,7 +275,7 @@ body {
 .bag-link {
   align-self: center;
   padding: 0;
-  background-image: url(../images/scenery/basket.svg);
+  background-image: url("../images/scenery/basket.svg");
   background-repeat: no-repeat;
   padding-left: 43px;
   background-position: 15px 36%;
@@ -747,11 +747,11 @@ body {
 }
 
 .slider-next {
-  background-image: url(../images/scenery/next.svg);
+  background-image: url("../images/scenery/next.svg");
 }
 
 .slider-previous {
-  background-image: url(../images/scenery/prev.svg);
+  background-image: url("../images/scenery/prev.svg");
 }
 
 .slider-pagination {
@@ -980,32 +980,32 @@ body {
 }
 
 .category-virtual::before {
-  background-image: url(../images/catalog/virtual-reality.svg);
+  background-image: url("../images/catalog/virtual-reality.svg");
   background-position: 32px 53px;
 }
 
 .category-monopod::before {
-  background-image: url(../images/catalog/monopods-for-selfies.svg);
+  background-image: url("../images/catalog/monopods-for-selfies.svg");
   background-position: 37px 43px;
 }
 
 .category-camera::before {
-  background-image: url(../images/catalog/action-cameras.svg);
+  background-image: url("../images/catalog/action-cameras.svg");
   background-position: 44px 36px;
 }
 
 .category-bracelet::before {
-  background-image: url(../images/catalog/fitness-bracelet.svg);
+  background-image: url("../images/catalog/fitness-bracelet.svg");
   background-position: 26px 46px;
 }
 
 .category-watch::before {
-  background-image: url(../images/catalog/smart-watch.svg);
+  background-image: url("../images/catalog/smart-watch.svg");
   background-position: 52px 31px;
 }
 
 .category-quadrocopter::before {
-  background-image: url(../images/catalog/quadrocopter.svg);
+  background-image: url("../images/catalog/quadrocopter.svg");
   background-position: 14px 45px;
 }
 
@@ -1109,7 +1109,7 @@ body {
   height: 164px;
   width: 136px;
   right: 63px;
-  background-image: url(../images/services/delivery.svg);
+  background-image: url("../images/services/delivery.svg");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
@@ -1119,7 +1119,7 @@ body {
   height: 195px;
   width: 171px;
   right: 26px;
-  background-image: url(../images/services/guarantees.svg);
+  background-image: url("../images/services/guarantees.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1128,7 +1128,7 @@ body {
   height: 188px;
   width: 156px;
   right: 25px;
-  background-image: url(../images/services/credit.svg);
+  background-image: url("../images/services/credit.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1180,7 +1180,7 @@ body {
 .rare-product-btn::before {
   width: 125px;
   height: 100%;
-  background-image: url(../images/scenery/machine.svg);
+  background-image: url("../images/scenery/machine.svg");
   background-color: #ffe17f;
   top: 0;
   left: 0;
@@ -1190,7 +1190,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-image: url(../images/scenery/info.svg);
+  background-image: url("../images/scenery/info.svg");
   background-color: #dcdcdc80;
   top: 50%;
   right: 43px;
@@ -1491,7 +1491,7 @@ body {
 }
 
 .subscription-warning {
-  background-image: url(../images/scenery/check-mark.svg);
+  background-image: url("../images/scenery/check-mark.svg");
   background-repeat: no-repeat;
   margin: auto 0;
   padding: 0 2px 0 32px;
@@ -1848,11 +1848,11 @@ body {
 }
 
 .name-input {
-  background-image: url(../images/scenery/modal-name.svg);
+  background-image: url("../images/scenery/modal-name.svg");
 }
 
 .email-input {
-  background-image: url(../images/scenery/modal-login.svg);
+  background-image: url("../images/scenery/modal-login.svg");
 }
 
 .modal-input:hover {
@@ -1925,12 +1925,12 @@ body {
 }
 
 .minus-btn {
-  background-image: url(../images/scenery/minus-btn.svg);
+  background-image: url("../images/scenery/minus-btn.svg");
   left: 18px;
 }
 
 .plus-btn {
-  background-image: url(../images/scenery/plus-btn.svg);
+  background-image: url("../images/scenery/plus-btn.svg");
   right: 17px;
 }
 
@@ -1991,7 +1991,7 @@ body {
   height: 26px;
   background-color: #ffe17f;
   border-radius: 50%;
-  background-image: url(../images/scenery/info.svg);
+  background-image: url("../images/scenery/info.svg");
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -2102,7 +2102,7 @@ body {
 .breadcrumbs-item::after {
   position: absolute;
   content: "";
-  background-image: url(../images/scenery/breadcrumbs-arrow.svg);
+  background-image: url("../images/scenery/breadcrumbs-arrow.svg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 7px;
@@ -2329,7 +2329,7 @@ body {
 }
 
 .control-input-checkbox:checked + .control-mark {
-  background-image: url(../images/scenery/checbox.svg);
+  background-image: url("../images/scenery/checbox.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   border: 2px solid #000000;
@@ -2423,7 +2423,7 @@ body {
   padding: 0;
   padding-right: 21px;
   appearance: none;
-  background-image: url(../images/scenery/sort-select.svg);
+  background-image: url("../images/scenery/sort-select.svg");
   background-repeat: no-repeat;
   background-position: right -1px top 50%;
   max-width: 400px;
