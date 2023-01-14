@@ -63,13 +63,13 @@ const modalCloseBtn = document.querySelector('.modal-close-btn');
 
 modalOpenBtn.addEventListener('click', (evt) => {
   evt.preventDefault();
-modal.classList.add('is-open');
+  modal.classList.add('is-open');
 });
 
 modalCloseBtn.addEventListener('click', (evt) => {
   evt.preventDefault();
   modal.classList.remove('is-open');
-  });
+});
 
 document.addEventListener('keydown', (evt) => {
   if (evt.key === 'Escape') {
