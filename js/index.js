@@ -56,7 +56,6 @@ sliderButtonPrev.addEventListener('click', (evt) => {
   sliderItems[slideIndex].classList.add('is-active');
 });
 
-
 const modalOpenBtn = document.querySelector('.rare-product-btn');
 const modal = document.querySelector('.modal-container');
 const modalCloseBtn = document.querySelector('.modal-close-btn');
