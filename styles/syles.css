@@ -2710,6 +2710,7 @@ body {
   display: grid;
   grid-template-columns: auto 280px auto;
   background-color: #ebebeb;
+  align-items: center;
 }
 
 .pagination-button {
