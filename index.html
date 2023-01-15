@@ -4,8 +4,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Интернет магазин Девайс</title>
-    <link rel="stylesheet" href="styles/syles.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./styles/syles.css">
+    <link rel="icon" href="./favicon.ico">
     <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
   </head>
 
@@ -13,17 +13,17 @@
     <div class="page-container">
       <div class="wrapper">
         <header class="page-header">
-          <a class="header-logo">
+          <a class="header-logo" href="#">
             <span class="visually-hidden">Перейти на главный сайт</span>
             <img class="header-logo-img img" src="./images/scenery/logo.svg" alt="Логотип сайта девайс." width="145"
               height="36">
           </a>
           <div class="page-header-user-bar">
-            <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+            <form class="search-form" method="post" action="https://echo.htmlacademy.ru/">
               <label class="visually-hidden" for="header-serch">Поиск по сайту</label>
               <div class="header-search-wrapper">
-                <input class="header-search" type="search" name="header-serch" id="header-serch"
-                  placeholder="Поиск по сайту">
+                <input class="header-search header-search-catalog" type="search" name="header-serch" id="header-serch"
+                  placeholder="Текст поиска">
               </div>
               <div class="button-search-wrapper">
                 <button class="button-search" type="submit">Найти</button>
@@ -35,7 +35,7 @@
               </div>
               <a class="header-link contrast-link" href="#">Сравнить</a>
               <div class="bag-wrapper">
-                <button class="header-link bag-link" type="button">Корзина</button>
+                <a class="header-link bag-link" href="#">Корзина</a>
                 <div class="bag-tooltip">
                   <ul class="bag-list">
                     <li class="bag-item">
@@ -132,10 +132,10 @@
             <img class="slider-img" src="./images/slider/slider-1.png" alt="Квадракоптер." width="560" height="560">
             <div class="slider-hero-wrapper">
               <span class="slider-number">01</span>
-              <p class="page-title slider-slogan">Порхает как бабочка, жалит как пчела!</p>
+              <p class="slider-slogan page-title">Порхает как бабочка, жалит как пчела!</p>
               <p class="slider-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
                 замаскированным под стандартную камеру.</p>
-              <button class="button-link button-more">Подробнее</button>
+              <a class="button-link button-more" href="#">Подробнее</a>
               <dl class="slider-about-list">
                 <div class="slider-about-item">
                   <dt class="slider-about-name">Дальность полета</dt>
@@ -155,7 +155,7 @@
               <p class="page-title slider-slogan">Худеем<br>правильно!</p>
               <p class="slider-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия
                 и соблюдать диету.</p>
-              <button class="button-link button-more">Подробнее</button>
+              <a class="button-link button-more" href="#">Подробнее</a>
               <dl class="slider-about-list">
                 <div class="slider-about-item">
                   <dt class="slider-about-name">Без подзарядки</dt>
@@ -168,10 +168,10 @@
             <img class="slider-img" src="./images/slider/slider-3.png" alt="Палка для селфи." width="560" height="560">
             <div class="slider-hero-wrapper">
               <span class="slider-number">03</span>
-              <p class="page-title slider-slogan">Делай селфи, как Бен Стиллер!</p>
+              <p class="page-title slider-slogan">Делай селфи, <br> как Бен Стиллер!</p>
               <p class="slider-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь,
                 Карл!) метров длиной и весом всего 5 кг.</p>
-              <a class="button-link button-more">Подробнее</a>
+              <a class="button-link button-more" href="#">Подробнее</a>
               <dl class="slider-about-list">
                 <div class="slider-about-item">
                   <dt class="slider-about-name">Длина палки</dt>
@@ -308,7 +308,7 @@
               <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
                 <label class="visually-hidden" for="subscription-input">Подписка на рассылку</label>
                 <input class="subscription-input" type="email" name="subscription-input" id="subscription-input"
-                  placeholder="Ваш e-mail" aria-label="Ваш e-mail">
+                  placeholder="Ваш e-mail" aria-label="Ваш e-mail" required>
                 <button class="subscription-btn" type="submit">Подписаться</button>
               </form>
               <span class="subscription-warning">Это бесплатно</span>
@@ -357,7 +357,8 @@
             </ul>
             <a class="footer-logo-academy" href="https://htmlacademy.ru/">
               <span class="visually-hidden">Переход на сайт HTML академии</span>
-              <svg width="115" height="33" viewBox="0 0 115 33" xmlns="http://www.w3.org/2000/svg">
+              <svg width="115" height="33" viewBox="0 0 115 33" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Логотип HTML академии.">
                 <path d="M0 12.9V15.5H2.5V12.9H0Z" />
                 <path
                   d="M11.6 4.5C10 4.5 8.8 5.2 8 6.2H7.9V0H5.9V15.5H7.9V10.2C7.9 8.1 9.2 6.6 11.2 6.6C13 6.6 14.1 8 14.1 9.8V15.5H16.1V9.4C16.2 6.4 14.3 4.5 11.6 4.5Z" />
@@ -399,7 +400,8 @@
               <label class="field-label" for="name">
                 <span class="field-name">Ваше имя:</span>
               </label>
-              <input class="modal-input name-input" type="text" name="name" id="name" placeholder="Введите ваше имя">
+              <input class="modal-input name-input" type="text" name="name" id="name" placeholder="Введите ваше имя"
+                required>
               <span class="field-warning field-text">Добавьте имя</span>
               <span class="field-error field-text">Забавное у вас имя</span>
             </div>
@@ -408,7 +410,7 @@
                 <span class="field-name">Ваш e-mail:</span>
               </label>
               <input class="modal-input email-input" type="email" name="email" id="email"
-                placeholder="Введите ваш e-mail">
+                placeholder="Введите ваш e-mail" required>
               <span class="field-warning field-text">Добавьте адрес почты</span>
               <span class="field-error field-text">Забавный у вас адрес</span>
             </div>
@@ -416,8 +418,8 @@
               <label class="field-label" for="order">
                 <span class="field-name">Что нужно привезти:</span>
               </label>
-              <input class="modal-input order-input" type="text" name="order" id="order"
-                placeholder="В свободной форме">
+              <input class="modal-input order-input" type="text" name="order" id="order" placeholder="В свободной форме"
+                required>
             </div>
             <div class="field-container number-container">
               <div class="label-count-container">

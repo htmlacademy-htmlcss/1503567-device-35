@@ -4,8 +4,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Монопады для селфи</title>
-    <link rel="stylesheet" href="styles/syles.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./styles/syles.css">
+    <link rel="icon" href="./favicon.ico">
     <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
   </head>
 
@@ -26,7 +26,7 @@
                   placeholder="Текст поиска">
               </div>
               <div class="button-search-wrapper">
-                <button class="button-search" type="button">Найти</button>
+                <button class="button-search" type="submit">Найти</button>
               </div>
             </form>
             <div class="user-bar-wrapper">
@@ -36,7 +36,7 @@
               <a class="header-link exit-link" href="#">Выйти</a>
               <a class="header-link contrast-link" href="#">Сравнить</a>
               <div class="bag-wrapper">
-                <button class="header-link bag-link" type="button">Корзина</button>
+                <a class="header-link bag-link" href="#">Корзина</a>
                 <div class="bag-tooltip">
                   <ul class="bag-list">
                     <li class="bag-item">
@@ -141,7 +141,7 @@
                 <legend class="catalog-subtitle">Стоимость</legend>
                 <div class="range">
                   <div class="range-scale">
-                    <div class="range-bar" style="left: 0; width: 119px">
+                    <div class="range-bar">
                       <button class="range-toggle toggle-min" type="button">
                         <span class="visually-hidden">Увеличить минимальную цену</span>
                       </button>
@@ -151,10 +151,10 @@
                     </div>
                   </div>
                   <div class="wrapper-inputs">
-                    <label class="filter-range-input range-input-from" style="left: 0">от
+                    <label class="filter-range-input range-input-from">от
                       <input class="range-input" type="number" value="0" name="min-price">
                     </label>
-                    <label class="filter-range-input range-input-to" style="left: 119px">до
+                    <label class="filter-range-input range-input-to">до
                       <input class="range-input" type="number" value="5000" name="max-price">
                     </label>
                   </div>
@@ -166,7 +166,7 @@
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input class="visually-hidden control-input-checkbox" type="checkbox" name="color" value="black"
-                        checked>
+                        checked required>
                       <span class="control-mark"></span>
                       <span class="control-label">Черный</span>
                     </label>
@@ -174,7 +174,7 @@
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input class="visually-hidden control-input-checkbox" type="checkbox" name="color" value="white"
-                        checked>
+                        checked required>
                       <span class="control-mark"></span>
                       <span class="control-label">Белый</span>
                     </label>
@@ -247,8 +247,8 @@
                   <li class="cards-product-item">
                     <a class="cards-product-link" href="#">
                       <div class="cards-product-img">
-                        <img src="./images/catalog-monopads/product-1.jpg" alt="Селфи-палка с креплением для телефона."
-                          width="360" height="380">
+                        <img class="product-foto" src="./images/catalog-monopads/product-1.jpg"
+                          alt="Селфи-палка с креплением для телефона." width="360" height="380">
                         <span class="button-link cards-product-button">Подробнее</span>
                       </div>
                       <div class="cards-text-about">
@@ -260,8 +260,8 @@
                   <li class="cards-product-item">
                     <a class="cards-product-link new-product" href="#">
                       <div class="cards-product-img">
-                        <img src="./images/catalog-monopads/product-2.jpg" alt="Селфи-палка для профессионалов."
-                          width="360" height="380">
+                        <img class="product-foto" src="./images/catalog-monopads/product-2.jpg"
+                          alt="Селфи-палка для профессионалов." width="360" height="380">
                         <span class="button-link cards-product-button">Подробнее</span>
                       </div>
                       <div class="cards-text-about">
@@ -273,7 +273,7 @@
                   <li class="cards-product-item">
                     <a class="cards-product-link" href="#">
                       <div class="cards-product-img">
-                        <img src="./images/catalog-monopads/product-3.jpg"
+                        <img class="product-foto" src="./images/catalog-monopads/product-3.jpg"
                           alt="Селфи-палка, которую можно использовать в воде." width="360" height="380">
                         <span class="button-link cards-product-button">Подробнее</span>
                       </div>
@@ -286,8 +286,8 @@
                   <li class="cards-product-item">
                     <a class="cards-product-link" href="#">
                       <div class="cards-product-img">
-                        <img src="./images/catalog-monopads/product-4.jpg" alt="Селфи-палка с имитацией руки."
-                          width="360" height="380">
+                        <img class="product-foto" src="./images/catalog-monopads/product-4.jpg"
+                          alt="Селфи-палка с имитацией руки." width="360" height="380">
                         <span class="button-link cards-product-button">Подробнее</span>
                       </div>
                       <div class="cards-text-about">
@@ -326,7 +326,7 @@
       </main>
       <footer class="footer">
         <div class="container">
-          <a class="footer-logo" href="#">
+          <a class="footer-logo" href="./index.html">
             <span class="visually-hidden">Переход на главный сайт.</span>
             <img src="./images/scenery/logo-footer.svg" alt="Логотип сайта Девайс." width="145" height="36" />
           </a>
@@ -365,7 +365,8 @@
             </ul>
             <a class="footer-logo-academy" href="https://htmlacademy.ru/">
               <span class="visually-hidden">Переход на сайт HTML академии</span>
-              <svg width="115" height="33" viewBox="0 0 115 33" xmlns="http://www.w3.org/2000/svg">
+              <svg width="115" height="33" viewBox="0 0 115 33" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Логотип HTML академии.">
                 <path d="M0 12.9V15.5H2.5V12.9H0Z" />
                 <path
                   d="M11.6 4.5C10 4.5 8.8 5.2 8 6.2H7.9V0H5.9V15.5H7.9V10.2C7.9 8.1 9.2 6.6 11.2 6.6C13 6.6 14.1 8 14.1 9.8V15.5H16.1V9.4C16.2 6.4 14.3 4.5 11.6 4.5Z" />
