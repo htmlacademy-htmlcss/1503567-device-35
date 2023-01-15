@@ -489,7 +489,6 @@ body {
   width: 100%;
   grid-template-columns: 1fr 630px;
   gap: 26px;
-  justify-content: space-between;
   position: relative;
   align-items: center;
 }
@@ -2283,11 +2282,8 @@ body {
   margin: 0;
 }
 
-.range-input::-webkit-outer-spin-button,
-.range-input::-webkit-inner-spin-button {
-  appearance: none;
-  margin: 0;
-  color:#000000;
+.range-input {
+  -moz-appearance: textfield;
 }
 
 .filter-range-input:focus-within {
@@ -2501,11 +2497,13 @@ body {
 .sort-button-down {
   transform: rotate(180deg);
   left: 5px;
+  background-color: transparent;
 }
 
 .sort-button-up {
   right: 5px;
   top: -2px;
+  background-color: transparent;
 }
 
 .sort-button:hover::after {
