@@ -1019,7 +1019,7 @@ body {
 
 .advantages {
   background-image: linear-gradient(#ffffff 149px, #f0f0f0 149px);
-  width: 100%;
+  min-width: 1440px;
   padding-top: 47px;
   padding-bottom: 72px;
   margin: 0;
@@ -1368,6 +1368,7 @@ body {
 .subscription {
   padding: 64px 0 56px 0;
   background-color: #f0f0f0;
+  min-width: 1440px;
   ;
 }
 
@@ -1503,6 +1504,7 @@ body {
   background-color: #444444;
   padding: 62px 0 46px 0;
   margin-top: auto;
+  min-width: 1440px;
 }
 
 .footer-wrapper {
@@ -2279,6 +2281,13 @@ body {
 .range-input::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+  color:#000000;
 }
 
 .filter-range-input:focus-within {
