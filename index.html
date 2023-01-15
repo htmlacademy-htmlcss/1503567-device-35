@@ -26,7 +26,7 @@
                   placeholder="Текст поиска">
               </div>
               <div class="button-search-wrapper">
-                <button class="button-search" type="button">Найти</button>
+                <button class="button-search" type="submit">Найти</button>
               </div>
             </form>
             <div class="user-bar-wrapper">
@@ -399,7 +399,7 @@
               <label class="field-label" for="name">
                 <span class="field-name">Ваше имя:</span>
               </label>
-              <input class="modal-input name-input" type="text" name="name" id="name" placeholder="Введите ваше имя">
+              <input class="modal-input name-input" type="text" name="name" id="name" placeholder="Введите ваше имя" required>
               <span class="field-warning field-text">Добавьте имя</span>
               <span class="field-error field-text">Забавное у вас имя</span>
             </div>
@@ -408,7 +408,7 @@
                 <span class="field-name">Ваш e-mail:</span>
               </label>
               <input class="modal-input email-input" type="email" name="email" id="email"
-                placeholder="Введите ваш e-mail">
+                placeholder="Введите ваш e-mail" required>
               <span class="field-warning field-text">Добавьте адрес почты</span>
               <span class="field-error field-text">Забавный у вас адрес</span>
             </div>
@@ -417,7 +417,7 @@
                 <span class="field-name">Что нужно привезти:</span>
               </label>
               <input class="modal-input order-input" type="text" name="order" id="order"
-                placeholder="В свободной форме">
+                placeholder="В свободной форме" required>
             </div>
             <div class="field-container number-container">
               <div class="label-count-container">
