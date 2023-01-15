@@ -2188,7 +2188,9 @@ body {
 
 .range-bar {
   position: absolute;
+  width: 119px;
   height: 2px;
+  left: 0;
   background-color: #000000;
 }
 
@@ -2265,10 +2267,12 @@ body {
 
 .range-input-from {
   transform: translateX(-23%) translateY(-14%);
+  left: 0;
 }
 
 .range-input-to {
   transform: translateX(1%) translateY(-19%);
+  left: 119px;
 }
 
 .range-input::-webkit-outer-spin-button,
