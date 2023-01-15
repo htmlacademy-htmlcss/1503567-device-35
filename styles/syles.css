@@ -1458,7 +1458,7 @@ body {
   box-shadow: none;
 }
 
-.subscription-input:invalid {
+.subscription-input:focus:invalid {
   border-color: #ff3d3d;
 }
 
